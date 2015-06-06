@@ -31,7 +31,7 @@ color:white;
 .text-header{
 font-size: 70px;
 margin:auto;
-margin-top: 30%;
+margin-top: 27%;
 text-align: center;
 }
 
@@ -65,6 +65,8 @@ font-size: 5em;
 	-moz-animation-duration:4s;
 	animation-duration:4s;
 }
+
+
 /*
 .social-icon{
 width:28px;
@@ -128,16 +130,25 @@ transform: rotateY(.5turn) translateZ(1px);
 
 .free-dl-text{
 background-color: #25153D;
-height:15%;
 margin-bottom:5%;
+margin-top:5%;
 }
 
 h3.text{
   margin-top: 25px;
-  padding-top: 10px;
+ line-height: 3;
+}
+
+@media(max-width:767px){
+h3.text{
+ line-height: 2;
+} 
 }
 
 .footer{ 
 text-align:center;
 background-color: #C77129;
+position: relative;
+bottom: 0;
+width: 100%;
 }
