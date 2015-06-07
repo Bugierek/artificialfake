@@ -145,6 +145,10 @@ h3.text{
 } 
 }
 
+.btn-free-dl{
+font-size: larger;
+}
+
 .footer{ 
 text-align:center;
 background-color: #C77129;
