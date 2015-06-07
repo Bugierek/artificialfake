@@ -1,5 +1,5 @@
 body{
-    background: url("../img/bg-extended.png");
+    background: url("../img/bg-extended.jpg");
     background-size: 100% 170%;
     background-repeat: no-repeat;
 }
@@ -155,4 +155,7 @@ background-color: #C77129;
 position: relative;
 bottom: 0;
 width: 100%;
+}
+.numbers{
+font-family: Arial;
 }
