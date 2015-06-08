@@ -2,6 +2,7 @@ body{
     background: url("../img/bg-extended.jpg");
     background-size: 100% 170%;
     background-repeat: no-repeat;
+    height: 100%;
 }
 
 
@@ -12,6 +13,7 @@ margin-top: -20px;
 
 .img-center{
 margin: auto;
+max-width: 100%;
 }
 
 .img-logo{
@@ -136,6 +138,8 @@ margin-top:5%;
 
 h3.text{
   margin-top: 25px;
+padding-left: 5px;
+padding-right: 5px;
  line-height: 3;
 }
 
@@ -148,14 +152,35 @@ h3.text{
 .btn-free-dl{
 font-size: larger;
 }
+/*
+#mc_embed_signup{
+text-align: center;
+margin-top: -3%;
+}
+
+#mc-embedded-signup-form{
+display: inline-block;
+}
+#mc_embed_signup_scroll{
+display:flex;
+}
+*/
 
 .footer{ 
 text-align:center;
 background-color: #C77129;
 position: relative;
-bottom: 0;
 width: 100%;
+height: 20px;
 }
-.numbers{
-font-family: Arial;
+
+@media(min-width: 1200px){
+.footer{
+bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;}
 }
